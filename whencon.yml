@@ -4,5 +4,5 @@
    tasks:
    - name: check file there or not
      copy:
-       dest: /tmp/ansible
-     when: true
+       dest: /tmp/what
+     when: false
