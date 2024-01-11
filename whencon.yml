@@ -1,0 +1,8 @@
+---
+ - name: This playbook is to use when condition whether the file exist or not
+   hosts: WEB
+   tasks:
+   - name: check file there or not
+     copy:
+       dest: /tmp/ansible
+     when: true
